@@ -1,0 +1,271 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [
+        {
+            "altRowTemplateFunction": "",
+            "altRowTemplateId": "",
+            "authorization": {
+                "allowedRoles": []
+            },
+            "classList": "",
+            "columns": [
+                {
+                    "componentOptions": {
+                        "annotations": {
+                            "id": "componentIdentifier"
+                        },
+                        "downArrowText": "",
+                        "events": {
+                            "onChange": ""
+                        },
+                        "id": "ctl62",
+                        "model": "",
+                        "name": "id",
+                        "placeholder": "",
+                        "schemaVersion": "1.0",
+                        "spinners": false,
+                        "step": 1,
+                        "title": "ID",
+                        "type": "numeric-text-box",
+                        "uniqueID": "d4f7ecbd-f19f-4d0f-9b21-0c36f89386a4",
+                        "upArrowText": "",
+                        "validation": {
+                            "required": false
+                        }
+                    },
+                    "editable": true,
+                    "encoded": true,
+                    "field": "id",
+                    "filterable": true,
+                    "format": "",
+                    "sortable": true,
+                    "title": "ID"
+                },
+                {
+                    "componentOptions": {
+                        "annotations": {
+                            "id": "componentIdentifier"
+                        },
+                        "debounce": 0,
+                        "defaultValue": "",
+                        "events": {
+                            "onChange": ""
+                        },
+                        "id": "ctl63",
+                        "model": "",
+                        "name": "name",
+                        "placeholder": "",
+                        "schemaVersion": "1.0",
+                        "title": "Name",
+                        "type": "text-box",
+                        "uniqueID": "ae44e872-eacb-44e5-9ec7-79bda11e272e",
+                        "validation": {
+                            "required": false
+                        }
+                    },
+                    "editable": true,
+                    "encoded": true,
+                    "field": "name",
+                    "filterable": true,
+                    "format": "",
+                    "sortable": true,
+                    "title": "Name"
+                },
+                {
+                    "componentOptions": {
+                        "annotations": {
+                            "id": "componentIdentifier"
+                        },
+                        "debounce": 0,
+                        "defaultValue": "",
+                        "events": {
+                            "onChange": ""
+                        },
+                        "id": "ctl64",
+                        "model": "",
+                        "name": "username",
+                        "placeholder": "",
+                        "schemaVersion": "1.0",
+                        "title": "User Name",
+                        "type": "text-box",
+                        "uniqueID": "5825e290-3f55-408c-ad20-7ffdbafd0d75",
+                        "validation": {
+                            "required": false
+                        }
+                    },
+                    "editable": true,
+                    "encoded": true,
+                    "field": "username",
+                    "filterable": true,
+                    "format": "",
+                    "sortable": true,
+                    "title": "User Name"
+                },
+                {
+                    "componentOptions": {
+                        "annotations": {
+                            "id": "componentIdentifier"
+                        },
+                        "debounce": 0,
+                        "defaultValue": "",
+                        "events": {
+                            "onChange": ""
+                        },
+                        "id": "ctl65",
+                        "model": "",
+                        "name": "email",
+                        "placeholder": "",
+                        "schemaVersion": "1.0",
+                        "title": "Email",
+                        "type": "text-box",
+                        "uniqueID": "648611b4-da6f-46f0-8646-feb4b507690a",
+                        "validation": {
+                            "required": false
+                        }
+                    },
+                    "editable": true,
+                    "encoded": true,
+                    "field": "email",
+                    "filterable": true,
+                    "format": "",
+                    "sortable": true,
+                    "title": "Email"
+                },
+                {
+                    "componentOptions": {
+                        "annotations": {
+                            "id": "componentIdentifier"
+                        },
+                        "debounce": 0,
+                        "defaultValue": "",
+                        "events": {
+                            "onChange": ""
+                        },
+                        "id": "ctl66",
+                        "model": "",
+                        "name": "phone",
+                        "placeholder": "",
+                        "schemaVersion": "1.0",
+                        "title": "Phone #",
+                        "type": "text-box",
+                        "uniqueID": "fc0b8f8f-1344-470b-9855-75c9aadc108b",
+                        "validation": {
+                            "required": false
+                        }
+                    },
+                    "editable": true,
+                    "encoded": true,
+                    "field": "phone",
+                    "filterable": true,
+                    "format": "",
+                    "sortable": true,
+                    "title": "Phone #"
+                },
+                {
+                    "componentOptions": {
+                        "annotations": {
+                            "id": "componentIdentifier"
+                        },
+                        "debounce": 0,
+                        "defaultValue": "",
+                        "events": {
+                            "onChange": ""
+                        },
+                        "id": "ctl67",
+                        "model": "",
+                        "name": "field",
+                        "placeholder": "",
+                        "schemaVersion": "1.0",
+                        "title": "Field Label",
+                        "type": "text-box",
+                        "uniqueID": "a7a5b0d1-3e24-467b-9e78-52baa3842477",
+                        "validation": {
+                            "required": false
+                        }
+                    },
+                    "editable": true,
+                    "encoded": true,
+                    "field": "field",
+                    "filterable": true,
+                    "format": "",
+                    "sortable": true,
+                    "title": "Field Label"
+                }
+            ],
+            "customSections": {
+                "bottom": "bottomSection.html",
+                "middle": "middleSection.html",
+                "top": "topSection.html"
+            },
+            "dataProvider": "jsonplaceholder",
+            "dataSource": "users",
+            "editOptions": {
+                "allowDelete": true,
+                "allowEdit": true,
+                "allowInsert": true,
+                "batch": true,
+                "rowButtonIcons": {
+                    "destroy": "k-icon k-i-close",
+                    "edit": "k-icon k-i-edit"
+                },
+                "rowButtonLabels": {
+                    "canceledit": "Cancel",
+                    "destroy": "Delete",
+                    "edit": "Edit",
+                    "update": "Update"
+                },
+                "toolbarButtonIcons": {
+                    "cancel": "k-icon k-i-cancel",
+                    "create": "k-icon k-i-add",
+                    "save": "k-icon k-i-checkmark"
+                },
+                "toolbarButtonLabels": {
+                    "cancel": "Cancel changes",
+                    "create": "New",
+                    "save": "Save changes"
+                }
+            },
+            "editable": "ReadOnly",
+            "events": {
+                "hideEventHandler": "onHide",
+                "initEventHandler": "onInit",
+                "onRowCreate": "",
+                "onRowDelete": "",
+                "onRowSelect": "onRowSelect",
+                "onRowUpdate": "",
+                "showEventHandler": "onShow"
+            },
+            "filterable": false,
+            "groupable": false,
+            "hidden": false,
+            "label": "Users",
+            "name": "userGrid",
+            "pageSize": 20,
+            "reorderable": false,
+            "resizable": false,
+            "rowTemplateFunction": "",
+            "rowTemplateId": "",
+            "schemaVersion": "1.0",
+            "sortable": false,
+            "title": "<Title>",
+            "type": "view",
+            "uniqueID": "d0582b0e-d6ec-4b0c-8026-35563e3849d1",
+            "viewType": "data-grid"
+        }
+    ],
+    "description": "",
+    "label": "Testing sample REST",
+    "moduleType": "default",
+    "name": "RestTest",
+    "order": 2,
+    "schemaVersion": "1.0",
+    "thumbnail": {
+        "background": "#00a2e8",
+        "color": "#ffffff",
+        "icon": "fa-area-chart"
+    },
+    "type": "module",
+    "uniqueID": "91fe70c3-fd38-475a-adcc-6955b8d682ab"
+}

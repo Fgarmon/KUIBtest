@@ -1,0 +1,40 @@
+<!--
+Auto-generated
+Do not edit!!!
+-->
+<div class="kb-data-grid">
+    <div class="row">
+        <div class="col-12">
+            <kb-top-section></kb-top-section>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h2>{{ $config.titleKey | translate }}</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <kb-middle-section></kb-middle-section>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <kb-grid #grid [config]="$config.components.grid" [dataService]="$dataServices['Customer']" [state]="$dataServicesState['Customer']" [view]="$dataServicesResult['Customer']">
+                <kendo-grid [pageable]="grid.config.pageable" [sortable]="grid.config.sortable" [filterable]="grid.config.filterable" [groupable]="grid.config.groupable" [data]="grid.view | async" [pageSize]="grid.state.take" [skip]="grid.state.skip" [sort]="grid.state.sort"
+                    [filter]="grid.state.filter" [group]="grid.state.group" [loading]="grid.dataService.pendingData" (dataStateChange)="grid.dataStateChange($event)" kendoGridSelectBy [selectedKeys]="grid.selectedKeys" [selectable]="{ mode: 'single' }" (selectionChange)="grid.selectionChange($event)"
+                    [resizable]="grid.config.resizable" [reorderable]="grid.config.reorderable">
+                    <kendo-grid-column [field]="'CustNum'" [filterable]="true" [filter]="'numeric'" [sortable]="true" [title]="'modules.CustREST.views.CustGrid.columns.CustNum' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'Name'" [filterable]="true" [filter]="'text'" [sortable]="true" [title]="'modules.CustREST.views.CustGrid.columns.Name' | translate">
+                    </kendo-grid-column>
+                    </kendo-grid>
+            </kb-grid>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <kb-bottom-section></kb-bottom-section>
+        </div>
+    </div>
+</div>

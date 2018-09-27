@@ -1,0 +1,82 @@
+{
+    "authentication": {
+        "authenticationType": "none",
+        "settings": {}
+    },
+    "authenticationModel": "Anonymous",
+    "children": [
+        {
+            "actions": {
+                "create": {
+                    "dataType": "json",
+                    "method": "POST",
+                    "url": ""
+                },
+                "destroy": {
+                    "dataType": "json",
+                    "method": "DELETE",
+                    "url": ""
+                },
+                "read": {
+                    "dataType": "json",
+                    "method": "GET",
+                    "url": "users"
+                },
+                "update": {
+                    "dataType": "json",
+                    "method": "PUT",
+                    "url": ""
+                }
+            },
+            "clientSideProcessing": true,
+            "fields": [
+                {
+                    "editorType": "numeric-input",
+                    "fieldType": "number",
+                    "label": "ID",
+                    "name": "id"
+                },
+                {
+                    "editorType": "text-input",
+                    "fieldType": "string",
+                    "label": "Name",
+                    "name": "name"
+                },
+                {
+                    "editorType": "text-input",
+                    "fieldType": "string",
+                    "label": "User Name",
+                    "name": "username"
+                },
+                {
+                    "editorType": "text-input",
+                    "fieldType": "string",
+                    "label": "Email",
+                    "name": "email"
+                },
+                {
+                    "editorType": "text-input",
+                    "fieldType": "string",
+                    "label": "Phone #",
+                    "name": "phone"
+                },
+                {
+                    "editorType": "text-input",
+                    "fieldType": "string",
+                    "label": "Field Label",
+                    "name": "field"
+                }
+            ],
+            "name": "users",
+            "schema": {},
+            "schemaVersion": "1.0",
+            "type": "rest-data-source",
+            "uniqueID": "7aedb944-d623-4c7d-bd5e-fdd02c9d1aa1"
+        }
+    ],
+    "name": "jsonplaceholder",
+    "schemaVersion": "1.0",
+    "serviceUri": "https://jsonplaceholder.typicode.com/",
+    "type": "rest-data-provider",
+    "uniqueID": "29d06604-2974-4558-9ea0-1b611e9502fd"
+}

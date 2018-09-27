@@ -1,0 +1,12 @@
+{
+    "dataProviders": {
+        "jsonplaceholder": {
+            "serviceUri": "https://jsonplaceholder.typicode.com/"
+        },
+        "Sports": {
+            "serviceUri": "https://oemobiledemo.progress.com/OEMobileDemoServices",
+            "catalogUris": ["https://oemobiledemo.progress.com/OEMobileDemoServices/static/SportsService.json"],
+            "authenticationModel": "Anonymous"
+        }
+    }
+}

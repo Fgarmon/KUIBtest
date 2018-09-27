@@ -1,0 +1,25 @@
+{
+    "authorization": {
+        "roles": []
+    },
+    "build": {
+        "debug": {
+            "baseHref": ""
+        },
+        "release": {
+            "baseHref": ""
+        }
+    },
+    "children": [],
+    "defaultLangaugeCulture": "en-US",
+    "defaultLanguageLabel": "English",
+    "description": "",
+    "layout": {},
+    "name": "MyTest",
+    "schemaVersion": "1.4.23",
+    "startupViewInfo": {},
+    "targetFramework": "Angular",
+    "theme": "nova",
+    "type": "app",
+    "uniqueID": "6a40a7ee-a3e0-4fd8-950a-3b68ae77403a"
+}

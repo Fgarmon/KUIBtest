@@ -1,0 +1,19 @@
+<!--
+Add your custom code here.
+This file and any changes you make to it are preserved every time the app is generated.
+-->
+ 
+
+
+ 
+    <button type="button" class="k-button" (click)="excelexport.save()">Export To Excel</button>
+
+<!-- this.parent.$dataServicesData.Customer.destination.value ** Current page only ** -->
+
+<kendo-excelexport [data]="this.parent.$dataServices.Customer.dataResult.data" [group]="group" fileName="Customer.xlsx" #excelexport>
+    <kendo-excelexport-column field="CustNum" [locked]="true" title="Customer ID" [width]="200">
+    </kendo-excelexport-column>
+    <kendo-excelexport-column field="Name" title="Customer Name" [width]="350">
+    </kendo-excelexport-column>
+</kendo-excelexport>
+ 
